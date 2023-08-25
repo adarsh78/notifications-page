@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+*,*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(210, 60%, 98%);
+}
+
+.container{
+    width: 100%;
+    background: #ffffff;
+    padding: 2rem 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.75);
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.top-bar h1{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.top-bar span{
+    background:  hsl(219, 85%, 26%);
+    color: #ffffff;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5px;
+    margin-left: 0.6rem;
+
+}
+
+.top-bar h2{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    color: hsl(219, 12%, 42%);
+}
+
+.top-bar h2:hover{
+    color:  hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.card p{
+    font-size: 0.840rem;
+    color: hsl(219, 12%, 42%);
+}
+
+.time{
+    font-size: 0.840rem;
+    color: hsl(219, 14%, 63%);
+}
+
+.name{
+    font-weight: 800;
+    color: #000000;
+}
+
+.reacted{
+    font-weight: 800;
+    color: hsl(219, 12%, 42%)
+}
+
+.reacted:hover, .name:hover{
+    color:  hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.chess{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.side-card{
+    border: 0.5px solid hsl(219, 14%, 63%);
+    padding: 1.5rem 2rem 1.5rem 1.2rem;
+    margin-left: 4rem;
+    border-radius: 0.4rem;
+    margin-bottom: 1.8rem;
+}
+
+.side-card p{
+    font-size: 0.850rem;
+    color: hsl(219, 12%, 42%);
+}
+
+.side-card:hover{
+    background:  hsl(205, 33%, 90%);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.bcg-color{
+    background: hsl(210, 60%, 98%);
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.10);
+    cursor: pointer;
+}
+
+.red-mark{
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+    margin-left: 0.3rem;
+}
+
+.chess-img:hover{
+    background:hsl(205, 33%, 90%) ;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+
+
+@media (min-width: 1440px) {
+
+    .container{
+        width: 38rem;
+    }
+
+    .side-card{
+      width: 86%;
+      padding: 1rem;
+    }
+
+    .side-card p {
+        font-size: 0.830rem;
+        color: hsl(219, 12%, 42%);
+    }
+
+    .chess-img {
+        margin-left: 10rem;
+    }
+}
