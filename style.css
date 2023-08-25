@@ -16,7 +16,7 @@ body{
     background-color: hsl(210, 60%, 98%);
 }
 
-.container{
+.main{
     width: 100%;
     background: #ffffff;
     padding: 2rem 1.5rem 0;
@@ -145,7 +145,7 @@ img{
 
 @media (min-width: 1440px) {
 
-    .container{
+    .main{
         width: 38rem;
     }
 
